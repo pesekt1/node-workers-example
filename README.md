@@ -1,38 +1,13 @@
 # Background Jobs in Node.js with Redis
 
-Redis-backed background worker example using [OptimalBits/bull](https://github.com/OptimalBits/bull) and [throng](https://github.com/hunterloftis/throng).
-
 ![Application Screenshot](https://user-images.githubusercontent.com/175496/55593654-80d41300-56f1-11e9-9366-2eb60bbcf38c.png)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/heroku-examples/node-workers-example)
 
 ## Installing Local Dependencies
 
 - [Redis](https://redis.io/)
 
-```
-$ brew install redis
-$ brew services start redis
-```
 
-## Getting Started
-
-1. `npm install`
-2. `npm start`
-3. [http://localhost:5000](http://localhost:5000)
-
-## Deploying
-
-```
-$ git clone git@github.com:heroku-examples/node-workers-example.git
-$ cd node-workers-example
-
-$ heroku create
-$ heroku addons:create heroku-redis
-$ git push heroku main
-$ heroku ps:scale worker=1
-$ heroku open
-```
 
 ## Application Overview
 
