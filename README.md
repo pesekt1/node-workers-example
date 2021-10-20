@@ -2,6 +2,8 @@
 
 ![Application Screenshot](https://user-images.githubusercontent.com/175496/55593654-80d41300-56f1-11e9-9366-2eb60bbcf38c.png)
 
+Running at: http://localhost:5000/
+
 
 ## Installing Local Dependencies
 
